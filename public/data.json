@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "Batter",
+    "battingStyle": "Right Handed",
+    "bowlingStyle": "Right Arm Medium",
+    "price": 1200000,
+    "rating": 95,
+    "image": "/src/assets/kohli.jfif"
+  },
+  {
+    "id": 2,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batter",
+    "battingStyle": "Right Handed",
+    "bowlingStyle": "Right Arm Off Break",
+    "price": 1150000,
+    "rating": 94,
+    "image": "/src/assets/babar.jfif"
+  },
+  {
+    "id": 3,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All Rounder",
+    "battingStyle": "Left Handed",
+    "bowlingStyle": "Slow Left Arm Orthodox",
+    "price": 1100000,
+    "rating": 93,
+    "image": "/src/assets/shakib.jfif"
+  },
+  {
+    "id": 4,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "battingStyle": "Right Handed",
+    "bowlingStyle": "Right Arm Fast",
+    "price": 1050000,
+    "rating": 96,
+    "image": "/src/assets/Bumrah.jfif"
+  },
+  {
+    "id": 5,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batter",
+    "battingStyle": "Right Handed",
+    "bowlingStyle": "Right Arm Off Break",
+    "price": 1000000,
+    "rating": 92,
+    "image": "/src/assets/wiliamson.jfif"
+  },
+  {
+    "id": 6,
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All Rounder",
+    "battingStyle": "Left Handed",
+    "bowlingStyle": "Right Arm Fast Medium",
+    "price": 1080000,
+    "rating": 94,
+    "image": "/src/assets/stock.webp"
+  },
+  {
+    "id": 7,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "battingStyle": "Right Handed",
+    "bowlingStyle": "Right Arm Leg Break",
+    "price": 980000,
+    "rating": 94,
+    "image": "/src/assets/rashid.jfif"
+  },
+  {
+    "id": 8,
+    "name": "Jos Buttler",
+    "country": "England",
+    "role": "Wicket Keeper Batter",
+    "battingStyle": "Right Handed",
+    "bowlingStyle": "Right Arm Medium",
+    "price": 1020000,
+    "rating": 93,
+    "image": "/src/assets/butler.jfif"
+  },
+  {
+    "id": 9,
+    "name": "Travis Head",
+    "country": "Australia",
+    "role": "Batter",
+    "battingStyle": "Left Handed",
+    "bowlingStyle": "Right Arm Off Break",
+    "price": 950000,
+    "rating": 91,
+    "image": "/src/assets/head.jfif"
+  },
+  {
+    "id": 10,
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "battingStyle": "Left Handed",
+    "bowlingStyle": "Left Arm Fast Medium",
+    "price": 850000,
+    "rating": 89,
+    "image": "/src/assets/musta.webp"
+  }
+]
