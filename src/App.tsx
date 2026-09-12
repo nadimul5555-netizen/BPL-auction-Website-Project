@@ -5,7 +5,8 @@ import type { PlayerTypes } from "./Type/PlayersType"
 import Nav from "./components/Nav"
 import Banner from "./components/banner"
 import Players from "./components/players/Players"
-import { Suspense } from "react"
+import { Suspense, useState } from "react"
+
 
 
 const playerData = async():Promise<PlayerTypes[]> =>{
@@ -15,14 +16,16 @@ const playerData = async():Promise<PlayerTypes[]> =>{
 }
 function App() {
   const playerDataPromis =playerData()
+  const [ammunt,setAmmunt]=useState<number>(4000000)
 
   return (
     <>
-     <Nav></Nav>
+     <Nav ammunt={ammunt}></Nav>
       <Banner></Banner>
       <Suspense fallback={<p>Loadding...</p>}>
 
-      <Players playerDataPromis={playerDataPromis}></Players>
+      <Players playerDataPromis={playerDataPromis} ammunt={ammunt} setAmmunt={setAmmunt}></Players>
+      
       </Suspense>
      
     </>
